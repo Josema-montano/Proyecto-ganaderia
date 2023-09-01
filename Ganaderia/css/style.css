@@ -1,0 +1,179 @@
+@keyframes movimiento {
+    0% {
+      transform: translateX(-100px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size:100;
+    vertical-align: baseline;
+}
+body{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color: #BEAB72;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.contactos{
+    margin-right: 40px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 30px;
+}
+.navbar{
+    display: flex;
+    margin-right: 10px;
+}
+.logo{
+    margin-left: 30px;
+}
+.bannerr{
+    height: 400px;
+    width: 1920px;
+}
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar a {
+    display:block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar a:hover{
+    background: #3f3f3f;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header{
+    height: 80vh !important;
+    background: url(/Tutorial-final/img/fondo.jpg) no-repeat center;
+    background-size: cover;
+}
+.title{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+.waos{
+    color: #BEAB72;
+    font-size: 17px;
+}
+.iniciowaos{
+    color: #fff;
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+.control_text{
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #fff;
+    text-align: justify;
+}
+.content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.conoce{
+    padding: 30px;
+    background:#1f1d1d ;
+}
+.noticias{
+    background:#3f3f3f;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+.titulon{
+    background: #BEAB72;
+    width: 100%;
+}
+.sobrenosotr{
+   width: 1920px;
+   height: 1080px;
+}
+.logo{
+    height: 50px;
+    width: 275px;
+    animation-duration: 2s;
+    animation-name: movimiento;
+}
+.contact{
+padding-top: 20px;
+background: #000000;
+padding-bottom: 0;
+}
+.stats{
+    background-color: #3f3f3f;
+}
+p{
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;   
+}
+.redesig{
+    width: 37px;
+    height: 40px;
+    margin-bottom: 25px;
+}
+.redesfb{
+    width: 25px;
+    height: 53px;
+    margin-bottom: 25px;
+}
+.redestw{
+    width: 47px;
+    height: 37px;
+    margin-bottom: 25px;
+}
+.reglas{
+    background:#3f3f3f;
+}
+.menus{
+    background-color: #3f3f3f;
+}
+html {
+    height: 100%;
+  }
+  
+  body {
+    height: 100%;
+    margin: 0;
+    background: #162944;
+  }
+  .waso{
+    text-decoration: none;
+    color: #fff;
+  }
